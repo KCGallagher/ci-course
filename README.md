@@ -1,5 +1,7 @@
 [![Run unit tests](https://github.com/KCGallagher/ci-course/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/KCGallagher/ci-course/actions/workflows/unit-tests.yml)
 
+[![codecov](https://codecov.io/gh/KCGallagher/ci-course/branch/main/graph/badge.svg?token=1FEV88KFZN)](https://codecov.io/gh/KCGallagher/ci-course)
+
 # OxRSE Continuous Integration course
 
 This project contains a small Python project. We are going to use free cloud services to automate:

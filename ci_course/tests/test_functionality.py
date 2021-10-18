@@ -4,7 +4,6 @@ import ci_course
 
 
 class TestFunctionality(unittest.TestCase):
-
     def test_greeting(self):
         self.assertEqual(ci_course.greet(), "Hello ")
         self.assertEqual(ci_course.greet("Fergus"), "Hello Fergus")
@@ -13,7 +12,8 @@ class TestFunctionality(unittest.TestCase):
         self.assertEqual(ci_course.minimum(1, 2, 3), 1)
         self.assertEqual(ci_course.minimum(1.2, 2.3), 1.2)
         self.assertEqual(ci_course.minimum(-1.2, -3), -3)
+        self.assertEqual(ci_course.minimum("no", "numbers", "here"), None)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
